@@ -98,7 +98,7 @@ public class VLiveCameraMan : MonoBehaviour
             {
                 GameObject instantiatedPrefab = Instantiate(cameraPrefab, transform.position, Quaternion.identity);
                 instantiatedPrefab.transform.parent = transform;
-                float cameraSize = 0.25f;
+                float cameraSize = 0.5f;
                 instantiatedPrefab.transform.localScale = Vector3.one * cameraSize;
                 instantiatedPrefab.transform.localEulerAngles = new Vector3(0, 90, 0);
                 instantiatedPrefab.transform.localPosition = new Vector3(0, 0, -0.5f);
