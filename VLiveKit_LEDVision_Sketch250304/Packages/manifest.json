@@ -1,5 +1,7 @@
 {
   "dependencies": {
+    "com.toshi.vlivekit.lensfilters": "https://github.com/toshi-kundesu/VLiveKit_LiveLensFilters.git?path=/Assets/toshi.VLiveKit/LiveLensFilters#0.0.1",
+    "com.toshi.vlivekit.cameraunit": "https://github.com/toshi-kundesu/VLiveKit_camera.git?path=/Assets/toshi.VLiveKit/VLiveCameraUnit#test0.0.9",
     "com.unity.visual-compositor": "0.30.7-preview",
     "com.unity.live-capture": "4.0.1",
     "com.unity.collab-proxy": "2.3.1",
